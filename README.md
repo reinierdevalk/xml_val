@@ -1,7 +1,5 @@
 # `xmval`
 
-## What is xmval?
-
 `xmval` is a Python script for batch validating XML files that is executed from the command line. It is written for Mac OS X and makes use of [`xmllint`](http://xmlsoft.org/xmllint.html). The script must be stored in the _~/bin_ directory. For this script to run, Python (preferably v3.5 or higher) must be installed on your computer. To check which version of Python you have installed, open the terminal and enter the following command: 
  
     $ python -V
@@ -9,7 +7,7 @@
 If this returns an error, you must first install Python in order to be able to proceed.
 
 
-## How to use xmval
+## Usage
 
 `xmval` takes one mandatory (M) argument and two optional (O) arguments:
 * `<schema_path>.xsd` (M) - the path to the XML schema to validate against
